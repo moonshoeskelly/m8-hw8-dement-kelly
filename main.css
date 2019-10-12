@@ -1,0 +1,30 @@
+/* Main Menu Styling */
+.main-menu {
+  display: flex;
+}
+.main-menu li {
+  width: 33%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  list-style-type: none;
+}
+.main-menu-labels {
+  margin: 0;
+  padding: 15px 0;
+  background-color: #08254f;
+  color: #fff;
+  font-size: 18px;
+}
+/* Sub Menu Styling */
+.sub-menu {
+  padding-left: 0;
+  background-color: #dde1e7;
+}
+.sub-menu li {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+}
