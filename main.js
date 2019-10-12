@@ -11,6 +11,6 @@ function toggleSubMenu() {
 
 //Applies hide toggle on mouse over and mouse out
 for (i=0; i< mainNavLinks.length; i++) {
-  mainNavLinks[i].addEventListener('mouseover', toggleSubMenu);
-  mainNavLinks[i].addEventListener('mouseout', toggleSubMenu);
+  mainNavLinks[i].addEventListener('mouseenter', toggleSubMenu);
+  mainNavLinks[i].addEventListener('mouseleave', toggleSubMenu);
 }
