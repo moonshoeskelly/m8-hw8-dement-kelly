@@ -26,6 +26,7 @@ for (i=0; i< mainNavLinks.length; i++) {
 
 
 //Keep sub-menu displayed when hovering drop down
+/*
 var mainAll = document.getElementsByClassName('main-all');
 console.log(mainAll);
 
@@ -41,3 +42,4 @@ for (i=0; i< mainAll.length; i++) {
   mainAll[i].addEventListener('mouseenter', showEnter);
   mainAll[i].addEventListener('mouseleave', showLeave);
 }
+*/
