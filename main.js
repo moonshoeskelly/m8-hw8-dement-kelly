@@ -30,16 +30,6 @@ for (i=0; i< mainNavLinks.length; i++) {
 var mainAll = document.querySelectorAll('.main-all');
 console.log(mainAll);
 
-function toggleDropdown() {
-  this.nextElementSibling.classList.toggle('show-all');
-}
-
-//Applies hide toggle on mouse over and mouse out
-for (i=0; i< mainAll.length; i++) {
-  mainAll[i].addEventListener('mouseenter', toggleDropdown);
-  mainAll[i].addEventListener('mouseleave', toggleDropdown);
-}
-
 /*function showEnter() {
   mainAll.classList.add('show-all');
 }
