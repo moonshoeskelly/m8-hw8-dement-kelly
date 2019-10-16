@@ -18,10 +18,23 @@
   font-size: 18px;
 }
 
+/* CSS Hover to show submenu
+
+.main-all:hover .sub-menu {
+  display: block;
+}
+*/
+
+.show-all {
+  display: block;
+}
+
 /* Sub Menu Styling */
 .sub-menu {
   padding-left: 0;
   background-color: #dde1e7;
+  max-height: 190px;
+  transition: max-height 2s;
 }
 
 .sub-menu li {
@@ -34,4 +47,6 @@
 
 .hide {
   display: none;
+  max-height: 0;
+  transition: max-height 2s;
 }
