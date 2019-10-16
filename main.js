@@ -25,20 +25,19 @@ for (i=0; i< mainNavLinks.length; i++) {
 }
 
 
-/*
 //Keep sub-menu displayed when hovering drop down
-var mainAll = document.querySelectorAll('.main-all');
+var mainAll = document.getElementsByClassName('main-all');
 console.log(mainAll);
 
-/*function showEnter() {
-  mainAll.classList.add('show-all');
+function showEnter() {
+  this.children[1].classList.add('show-all');
 }
 
 function showLeave() {
-  mainAll.classList.remove('show-all');
+  this.children[1].classList.remove('show-all');
 }
 
 for (i=0; i< mainAll.length; i++) {
   mainAll[i].addEventListener('mouseenter', showEnter);
   mainAll[i].addEventListener('mouseleave', showLeave);
-}*/
+}
